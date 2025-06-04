@@ -1,0 +1,47 @@
+# Project template
+- layout: top-middle
+- name: Transforming Video-Based Learning AI-Powered YouTube Learning Chatbot
+  github: https://github.com/likithatadakala/AI_Chatbot
+  description: >
+    Developed an AI-powered chatbot using LLMs (Ollama/Mistral, Llama2) that transcribes YouTube videos and uses NLP to answer user queries. Focused on privacy through localized deployment.
+
+- name: Vision for the Blind (Wearable AI Hat)
+  github: https://github.com/likithatadakala/VISION
+  description: >
+    Built an assistive wearable device for visually impaired users integrating Inception V3 for object detection, color recognition, and text extraction. Achieved 97.3% model training accuracy.
+
+- name: DevOps Implementation For Cloud-Native Monitoring Application
+  github: https://github.com/likithatadakala/Cloud_Native_Monitoring_App
+  description: > 
+    Implemented CI/CD pipelines using AWS services, deploying and managing the cloud-based monitoring application with automated workflows for improved efficiency and scalability.
+
+- name: Road Object Detection System 
+  github: https://github.com/likithatadakala/Road_Object_Detection
+  description: > 
+     Built a YOLOv5-based road object detection system with PyTorch, identifying vehicles, pedestrians, and signs with 97% accuracy.
+
+- name: Brain Tumor Detection using CNN
+  github: https://github.com/likithatadakala/Brain_Tumor_Detection
+  description: >
+    Designed a brain tumor classifier using ResNet50V2, VGG19, and Inception V3 on MRI images. VGG19 achieved 100% training and validation accuracy.
+
+- name: Deep Fake Detection using CNN
+  github: https://github.com/likithatadakala/DeepFakeDetection
+  description: >
+    Built a CNN-based deep fake detection model using Inception V3 achieving 98% accuracy. Supports real-time video analysis and security applications.
+
+- name: Faculty Leave Management System
+  github: https://github.com/likithatadakala/FacultyLeaveManagement
+  description: >
+    A full-stack web app using PHP, MySQL, JavaScript, HTML, and CSS that supports role-based leave request and approval workflows.
+
+- name: House Price Prediction 
+  github: https://github.com/likithatadakala/HousePricePrediction
+  description: >
+   Created a real-time house price prediction app using Python, Flask, and ML tools like NumPy and Pickle, with a web interface built using HTML, CSS, and JavaScript.
+
+- name: Criminal Detection Application
+  github: https://github.com/likithatadakala/CriminalDetection
+  description: > 
+    Developed a model to detect criminal activity patterns using machine learning, enhancing identification accuracy in surveillance data.
+   

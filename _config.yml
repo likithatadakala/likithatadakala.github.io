@@ -1,0 +1,179 @@
+
+# Site
+repository: likithatadakala/likithatadakala.github.io
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Likitha Tadakala
+title: Master's Student in Computer Science | Data Science & AI Enthusiast
+email: likithatadakala@gmail.com
+phone: +1 (317) 777-4949
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username: likithatadakala
+linkedin_username: tadakala-likitha
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  Graduate student in Computer Science at the University of Toledo, passionate about Artificial Intelligence, Deep Learning, and building scalable, data-driven applications. 
+  Experienced in developing ML models, web apps, and assistive technologies. Published research in IEEE and international journals. 
+  I strive to solve real-world problems using innovation and emerging technologies.
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Transforming Video-Based Learning AI-Powered YouTube Learning Chatbot
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/likithatadakala/AI_Chatbot
+        description: >
+          Developed an AI-powered chatbot using LLMs (Ollama/Mistral, Llama2) that transcribes YouTube videos and uses NLP to answer user queries. Focused on privacy through localized deployment.
+
+      - title: Vision for the Blind (Wearable AI Hat)
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/likithatadakala/VISION
+        description: >
+          Built an assistive wearable device for visually impaired users integrating Inception V3 for object detection, color recognition, and text extraction. Achieved 97.3% model training accuracy.
+
+      - title: DevOps Implementation For Cloud-Native Monitoring Application
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/likithatadakala/Cloud_Native_Monitoring_App
+        description: >
+          Implemented CI/CD pipelines using AWS services, deploying and managing the cloud-based monitoring application with automated workflows for improved efficiency and scalability.
+
+      - title: Road Object Detection System
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/likithatadakala/Road_Object_Detection
+        description: >
+          Built a YOLOv5-based road object detection system with PyTorch, identifying vehicles, pedestrians, and signs with 97% accuracy.
+
+      - title: Brain Tumor Detection using CNN
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/likithatadakala/Brain_Tumor_Detection
+        description: >
+          Designed a brain tumor classifier using ResNet50V2, VGG19, and Inception V3 on MRI images. VGG19 achieved 100% training and validation accuracy.
+
+      - title: Deep Fake Detection using CNN
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/likithatadakala/DeepFakeDetection
+        description: >
+          Built a CNN-based deep fake detection model using Inception V3 achieving 98% accuracy. Supports real-time video analysis and security applications.
+
+      - title: Faculty Leave Management System
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/likithatadakala/FacultyLeaveManagement
+        description: >
+          A full-stack web app using PHP, MySQL, JavaScript, HTML, and CSS that supports role-based leave request and approval workflows.
+
+      - title: House Price Prediction
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/likithatadakala/HousePricePrediction
+        description: >
+          Created a real-time house price prediction app using Python, Flask, and ML tools like NumPy and Pickle, with a web interface built using HTML, CSS, and JavaScript.
+
+      - title: Criminal Detection Application
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/likithatadakala/CriminalDetection
+        description: >
+          Developed a model to detect criminal activity patterns using machine learning, enhancing identification accuracy in surveillance data.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: CodesOnBytes
+        sub_title: Data Scientist Intern
+        caption: Dec 2023
+        description: |
+          Transformed data from public APIs, built clear Seaborn/Matplotlib visualizations, and optimized Linear Regression models with scikit-learn.
+
+      - layout: right
+        title: Intel Corporation
+        sub_title: Software Developer Intern
+        caption: Apr 2023 - Jul 2023
+        description: |
+          Built a YOLOv5-based object detection system with PyTorch to identify vehicles and road signs with 97% accuracy.
+
+      - layout: right
+        title: Ozibook Tech Solutions
+        sub_title: Business Analyst Intern
+        caption: Mar 2023 - Apr 2023
+        description: |
+          Delivered actionable business insights using MySQL and KNIME, supporting stakeholder decisions with clear analytics.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: University of Toledo
+        sub_title: Master of Science in Computer Science Engineering
+        caption: Aug 2024 - May 2026 (Expected)
+        description: GPA 4.0/4.0
+
+      - layout: top-right
+        title: Malla Reddy College of Engineering & Technology
+        sub_title: B.Tech in Computer Science Engineering - Data Science
+        caption: Aug 2020 - May 2024
+        description: GPA 8.89/10
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+       Research
+       - **VISION - Visual Insight Solution Interface Outreach Navigator**: Published in IEEE Xplore, presented at CISCSD-2024.
+       - **DevOps for Cloud-Native Monitoring**: Published in IJITCE Vol. 12(1), using AWS and CI/CD pipelines.
+
+       Skills
+       - **Languages**: Python, R, Java, PHP, SQL, JavaScript, HTML5, CSS3, Bootstrap
+       - **Tools & Tech**: AWS, MySQL, PostgreSQL, Flask, scikit-learn, PyTorch, YOLOv5, ResNet, VGG19, InceptionV3, Matlab, Git
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"

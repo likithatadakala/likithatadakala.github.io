@@ -1,0 +1,27 @@
+
+- layout: top
+  company: CodesOnBytes
+  job_title: Data Scientist Intern
+  dates: Dec 2023
+  description: |
+    - Cleaned and transformed data from public APIs.
+    - Created visualizations using Seaborn and Matplotlib.
+    - Trained and optimized a Linear Regression model using Scikit-learn.
+
+- layout: left
+  company: Intel Corporation
+  job_title: Software Developer Intern
+  dates: Apr 2023 - Jul 2023
+  description: |
+    - Built a Road Object Detection system using YOLOv5 and PyTorch.
+    - Trained the model to identify vehicles, pedestrians, and signs with 97% accuracy.
+
+- layout: left
+  company: Ozibook Tech Solutions Pvt. Ltd.
+  job_title: Business Analyst Intern
+  dates: Mar 2023 - Apr 2023
+  description: |
+    - Delivered business insights using MySQL and KNIME.
+    - Helped drive data-driven decisions for stakeholders.
+
+ 
